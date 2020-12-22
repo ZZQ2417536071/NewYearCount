@@ -1,0 +1,52 @@
+/*初始化*/
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+/*背景色*/
+body,
+html {
+  background: url(./img/newyear.png) no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  /* background-color: black; */
+}
+/*父盒子*/
+.fa {
+  color:#6c5ce7;
+  margin-top: 200px;
+  background-color: rgba(0, 17, 17, 0.5);
+  /*边框圆角*/
+  border-radius: 50px;
+  /*伸缩布局*/
+  display: flex;
+  /*改变主轴方向  竖排*/
+  flex-direction: column;
+}
+.fir {
+  margin-left: 620px;
+  margin-bottom: 100px;
+  font-size: 50px;
+}
+.fa .sj {
+  /*伸缩布局*/
+  display: flex;
+  /*改变主轴方向*/
+  flex-direction: column;
+}
+.fa .sj div {
+  width: 100%;
+  /*伸缩布局*/
+  display: flex;
+  /*主轴排列方式*/
+  justify-content: center;
+  color: black;
+  margin-bottom: 30px;
+  /*多行侧轴排列方式*/
+  align-content: space-around;
+  color:#ff7675;
+  font-size: 25px;
+}
+.fa .sj .zi {
+  color:#d63031;
+}
